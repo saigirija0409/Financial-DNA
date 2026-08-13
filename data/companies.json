@@ -2,10 +2,11 @@
   "companies": [
     {
       "id": "tcs",
-      "name": "Tata Consultancy Services",
-      "ticker": "TCS",
+      "name": "Tata Consultancy Services Ltd",
+      "ticker": "TCS.NS",
       "sector": "Information Technology",
-      "description": "Global IT services leader with elite cash generation, minimal debt, and robust operational margins.",
+      "currency": "INR",
+      "description": "India's largest IT exporter with elite cash conversion, high operating margins, and virtually zero debt.",
       "metrics": {
         "revenue_growth": 14.2,
         "net_profit_margin": 24.1,
@@ -23,157 +24,164 @@
       ]
     },
     {
-      "id": "apple",
-      "name": "Apple Inc.",
-      "ticker": "AAPL",
-      "sector": "Consumer Electronics / Tech",
-      "description": "Blue-chip consumer tech titan with high profit margins and massive ecosystem lock-in.",
+      "id": "reliance",
+      "name": "Reliance Industries Ltd",
+      "ticker": "RELIANCE.NS",
+      "sector": "Conglomerate / Energy & Retail",
+      "currency": "INR",
+      "description": "India's largest enterprise by market cap with massive capex in oil-to-chemicals, retail, and Jio telecom.",
       "metrics": {
-        "revenue_growth": 8.5,
-        "net_profit_margin": 25.3,
-        "cash_conversion": 1.08,
-        "debt_to_equity": 1.45,
-        "current_ratio": 1.05,
+        "revenue_growth": 11.5,
+        "net_profit_margin": 9.8,
+        "cash_conversion": 1.05,
+        "debt_to_equity": 0.42,
+        "current_ratio": 1.25,
         "working_capital_ratio": 0.12,
         "revenue_std_dev_ratio": 0.09
       },
       "historical_quarters": [
-        {"quarter": "Q1", "revenue_growth": 9.2, "net_profit_margin": 26.0, "debt_to_equity": 1.40},
-        {"quarter": "Q2", "revenue_growth": 8.8, "net_profit_margin": 25.5, "debt_to_equity": 1.42},
-        {"quarter": "Q3", "revenue_growth": 8.0, "net_profit_margin": 24.8, "debt_to_equity": 1.46},
-        {"quarter": "Q4", "revenue_growth": 8.5, "net_profit_margin": 25.3, "debt_to_equity": 1.45}
+        {"quarter": "Q1", "revenue_growth": 12.8, "net_profit_margin": 10.2, "debt_to_equity": 0.44},
+        {"quarter": "Q2", "revenue_growth": 11.9, "net_profit_margin": 9.9, "debt_to_equity": 0.43},
+        {"quarter": "Q3", "revenue_growth": 10.5, "net_profit_margin": 9.4, "debt_to_equity": 0.41},
+        {"quarter": "Q4", "revenue_growth": 11.5, "net_profit_margin": 9.8, "debt_to_equity": 0.42}
       ]
     },
     {
-      "id": "tesla",
-      "name": "Tesla Motors",
-      "ticker": "TSLA",
-      "sector": "Automotive & Clean Energy",
-      "description": "High-growth EV manufacturer with rapid expansion but cyclic price sensitivity.",
+      "id": "infosys",
+      "name": "Infosys Ltd",
+      "ticker": "INFY.NS",
+      "sector": "Information Technology",
+      "currency": "INR",
+      "description": "Global digital services giant with strong free cash flow yield, minimal leverage, and high dividend payouts.",
       "metrics": {
-        "revenue_growth": 18.7,
-        "net_profit_margin": 11.4,
-        "cash_conversion": 0.92,
-        "debt_to_equity": 0.22,
-        "current_ratio": 1.73,
-        "working_capital_ratio": 0.18,
-        "revenue_std_dev_ratio": 0.15
+        "revenue_growth": 12.8,
+        "net_profit_margin": 17.5,
+        "cash_conversion": 1.10,
+        "debt_to_equity": 0.10,
+        "current_ratio": 2.10,
+        "working_capital_ratio": 0.22,
+        "revenue_std_dev_ratio": 0.06
       },
       "historical_quarters": [
-        {"quarter": "Q1", "revenue_growth": 24.0, "net_profit_margin": 14.1, "debt_to_equity": 0.25},
-        {"quarter": "Q2", "revenue_growth": 20.2, "net_profit_margin": 12.5, "debt_to_equity": 0.24},
-        {"quarter": "Q3", "revenue_growth": 16.5, "net_profit_margin": 10.8, "debt_to_equity": 0.23},
-        {"quarter": "Q4", "revenue_growth": 18.7, "net_profit_margin": 11.4, "debt_to_equity": 0.22}
+        {"quarter": "Q1", "revenue_growth": 13.5, "net_profit_margin": 18.0, "debt_to_equity": 0.09},
+        {"quarter": "Q2", "revenue_growth": 12.9, "net_profit_margin": 17.6, "debt_to_equity": 0.10},
+        {"quarter": "Q3", "revenue_growth": 12.1, "net_profit_margin": 17.1, "debt_to_equity": 0.10},
+        {"quarter": "Q4", "revenue_growth": 12.8, "net_profit_margin": 17.5, "debt_to_equity": 0.10}
       ]
     },
     {
-      "id": "delta",
-      "name": "Delta Air Lines",
-      "ticker": "DAL",
-      "sector": "Airlines & Transportation",
-      "description": "Capital-intensive airline operator with seasonal revenue fluctuations and high financial leverage.",
+      "id": "tatamotors",
+      "name": "Tata Motors Ltd",
+      "ticker": "TATAMOTORS.NS",
+      "sector": "Automotive & Mobility",
+      "currency": "INR",
+      "description": "India's leading EV automaker and commercial vehicle manufacturer experiencing strong turnaround profitability.",
       "metrics": {
-        "revenue_growth": 5.2,
-        "net_profit_margin": 4.8,
-        "cash_conversion": 0.78,
-        "debt_to_equity": 2.85,
-        "current_ratio": 0.68,
-        "working_capital_ratio": -0.08,
+        "revenue_growth": 22.4,
+        "net_profit_margin": 7.2,
+        "cash_conversion": 0.95,
+        "debt_to_equity": 0.65,
+        "current_ratio": 1.15,
+        "working_capital_ratio": 0.08,
+        "revenue_std_dev_ratio": 0.14
+      },
+      "historical_quarters": [
+        {"quarter": "Q1", "revenue_growth": 26.0, "net_profit_margin": 6.1, "debt_to_equity": 0.72},
+        {"quarter": "Q2", "revenue_growth": 24.2, "net_profit_margin": 6.8, "debt_to_equity": 0.69},
+        {"quarter": "Q3", "revenue_growth": 20.1, "net_profit_margin": 7.5, "debt_to_equity": 0.66},
+        {"quarter": "Q4", "revenue_growth": 22.4, "net_profit_margin": 7.2, "debt_to_equity": 0.65}
+      ]
+    },
+    {
+      "id": "zomato",
+      "name": "Zomato Ltd (Eternal)",
+      "ticker": "ZOMATO.NS",
+      "sector": "New-Age Tech / Quick Commerce",
+      "currency": "INR",
+      "description": "High-growth consumer internet leader experiencing hyper-scaling via Blinkit quick commerce.",
+      "metrics": {
+        "revenue_growth": 68.5,
+        "net_profit_margin": 4.2,
+        "cash_conversion": 0.88,
+        "debt_to_equity": 0.05,
+        "current_ratio": 3.80,
+        "working_capital_ratio": 0.35,
+        "revenue_std_dev_ratio": 0.28
+      },
+      "historical_quarters": [
+        {"quarter": "Q1", "revenue_growth": 75.0, "net_profit_margin": 2.1, "debt_to_equity": 0.06},
+        {"quarter": "Q2", "revenue_growth": 71.2, "net_profit_margin": 3.4, "debt_to_equity": 0.05},
+        {"quarter": "Q3", "revenue_growth": 64.0, "net_profit_margin": 4.8, "debt_to_equity": 0.05},
+        {"quarter": "Q4", "revenue_growth": 68.5, "net_profit_margin": 4.2, "debt_to_equity": 0.05}
+      ]
+    },
+    {
+      "id": "suzlon",
+      "name": "Suzlon Energy Ltd",
+      "ticker": "SUZLON.NS",
+      "sector": "Renewable Energy / Wind",
+      "currency": "INR",
+      "description": "Clean energy turnaround champion debt-deleveraged with expanding green power order pipeline.",
+      "metrics": {
+        "revenue_growth": 48.2,
+        "net_profit_margin": 11.5,
+        "cash_conversion": 0.92,
+        "debt_to_equity": 0.18,
+        "current_ratio": 1.65,
+        "working_capital_ratio": 0.15,
         "revenue_std_dev_ratio": 0.22
       },
       "historical_quarters": [
-        {"quarter": "Q1", "revenue_growth": 3.1, "net_profit_margin": 3.2, "debt_to_equity": 3.10},
-        {"quarter": "Q2", "revenue_growth": 7.5, "net_profit_margin": 6.1, "debt_to_equity": 2.95},
-        {"quarter": "Q3", "revenue_growth": 6.2, "net_profit_margin": 5.4, "debt_to_equity": 2.90},
-        {"quarter": "Q4", "revenue_growth": 5.2, "net_profit_margin": 4.8, "debt_to_equity": 2.85}
+        {"quarter": "Q1", "revenue_growth": 52.0, "net_profit_margin": 10.1, "debt_to_equity": 0.25},
+        {"quarter": "Q2", "revenue_growth": 49.5, "net_profit_margin": 11.0, "debt_to_equity": 0.21},
+        {"quarter": "Q3", "revenue_growth": 44.0, "net_profit_margin": 12.2, "debt_to_equity": 0.19},
+        {"quarter": "Q4", "revenue_growth": 48.2, "net_profit_margin": 11.5, "debt_to_equity": 0.18}
       ]
     },
     {
-      "id": "target",
-      "name": "Target Corporation",
-      "ticker": "TGT",
-      "sector": "Retail & Wholesale",
-      "description": "Large-scale general merchandise retailer operating with steady low-margin volume.",
+      "id": "hdfcbank",
+      "name": "HDFC Bank Ltd",
+      "ticker": "HDFCBANK.NS",
+      "sector": "Banking & Financial Services",
+      "currency": "INR",
+      "description": "India's premier private sector bank with industry-leading Net Interest Margin (NIM) and low NPAs.",
       "metrics": {
-        "revenue_growth": 2.4,
-        "net_profit_margin": 3.6,
-        "cash_conversion": 0.85,
-        "debt_to_equity": 1.25,
-        "current_ratio": 0.88,
-        "working_capital_ratio": 0.05,
-        "revenue_std_dev_ratio": 0.11
-      },
-      "historical_quarters": [
-        {"quarter": "Q1", "revenue_growth": 1.8, "net_profit_margin": 3.2, "debt_to_equity": 1.28},
-        {"quarter": "Q2", "revenue_growth": 2.1, "net_profit_margin": 3.4, "debt_to_equity": 1.26},
-        {"quarter": "Q3", "revenue_growth": 3.0, "net_profit_margin": 4.0, "debt_to_equity": 1.24},
-        {"quarter": "Q4", "revenue_growth": 2.4, "net_profit_margin": 3.6, "debt_to_equity": 1.25}
-      ]
-    },
-    {
-      "id": "exxon",
-      "name": "ExxonMobil Corporation",
-      "ticker": "XOM",
-      "sector": "Energy & Oil",
-      "description": "Integrated oil & energy enterprise with massive cyclical cash flows and moderate leverage.",
-      "metrics": {
-        "revenue_growth": 11.8,
-        "net_profit_margin": 14.2,
-        "cash_conversion": 1.12,
-        "debt_to_equity": 0.28,
-        "current_ratio": 1.45,
-        "working_capital_ratio": 0.14,
-        "revenue_std_dev_ratio": 0.18
-      },
-      "historical_quarters": [
-        {"quarter": "Q1", "revenue_growth": 13.5, "net_profit_margin": 15.0, "debt_to_equity": 0.30},
-        {"quarter": "Q2", "revenue_growth": 12.1, "net_profit_margin": 14.5, "debt_to_equity": 0.29},
-        {"quarter": "Q3", "revenue_growth": 10.2, "net_profit_margin": 13.8, "debt_to_equity": 0.28},
-        {"quarter": "Q4", "revenue_growth": 11.8, "net_profit_margin": 14.2, "debt_to_equity": 0.28}
-      ]
-    },
-    {
-      "id": "pfizer",
-      "name": "Pfizer Inc.",
-      "ticker": "PFE",
-      "sector": "Healthcare & BioPharma",
-      "description": "Global pharmaceutical giant with stable research cash flows and conservative balance sheet.",
-      "metrics": {
-        "revenue_growth": 6.8,
-        "net_profit_margin": 18.5,
+        "revenue_growth": 16.5,
+        "net_profit_margin": 19.8,
         "cash_conversion": 1.02,
-        "debt_to_equity": 0.65,
-        "current_ratio": 1.38,
-        "working_capital_ratio": 0.16,
-        "revenue_std_dev_ratio": 0.08
+        "debt_to_equity": 1.15,
+        "current_ratio": 1.42,
+        "working_capital_ratio": 0.18,
+        "revenue_std_dev_ratio": 0.05
       },
       "historical_quarters": [
-        {"quarter": "Q1", "revenue_growth": 7.2, "net_profit_margin": 19.1, "debt_to_equity": 0.62},
-        {"quarter": "Q2", "revenue_growth": 6.9, "net_profit_margin": 18.8, "debt_to_equity": 0.64},
-        {"quarter": "Q3", "revenue_growth": 6.4, "net_profit_margin": 18.2, "debt_to_equity": 0.65},
-        {"quarter": "Q4", "revenue_growth": 6.8, "net_profit_margin": 18.5, "debt_to_equity": 0.65}
+        {"quarter": "Q1", "revenue_growth": 17.2, "net_profit_margin": 20.1, "debt_to_equity": 1.18},
+        {"quarter": "Q2", "revenue_growth": 16.8, "net_profit_margin": 19.9, "debt_to_equity": 1.16},
+        {"quarter": "Q3", "revenue_growth": 15.9, "net_profit_margin": 19.5, "debt_to_equity": 1.15},
+        {"quarter": "Q4", "revenue_growth": 16.5, "net_profit_margin": 19.8, "debt_to_equity": 1.15}
       ]
     },
     {
-      "id": "bbby",
-      "name": "Distressed Retail Corp (Benchmark)",
-      "ticker": "DRCB",
+      "id": "futureretail",
+      "name": "Distressed Retail Benchmark (India)",
+      "ticker": "DRB.NS",
       "sector": "Retail Distressed Benchmark",
-      "description": "Distressed retail operator severely leveraged with negative cash generation and shrinking sales.",
+      "currency": "INR",
+      "description": "Distressed retail enterprise facing liquidity crunch, high leverage debt trap, and inventory stagnation.",
       "metrics": {
-        "revenue_growth": -18.5,
-        "net_profit_margin": -12.4,
-        "cash_conversion": 0.25,
-        "debt_to_equity": 4.80,
-        "current_ratio": 0.42,
-        "working_capital_ratio": -0.22,
-        "revenue_std_dev_ratio": 0.35
+        "revenue_growth": -22.5,
+        "net_profit_margin": -14.8,
+        "cash_conversion": 0.22,
+        "debt_to_equity": 5.20,
+        "current_ratio": 0.38,
+        "working_capital_ratio": -0.28,
+        "revenue_std_dev_ratio": 0.38
       },
       "historical_quarters": [
-        {"quarter": "Q1", "revenue_growth": -12.0, "net_profit_margin": -6.5, "debt_to_equity": 3.80},
-        {"quarter": "Q2", "revenue_growth": -15.2, "net_profit_margin": -9.1, "debt_to_equity": 4.20},
-        {"quarter": "Q3", "revenue_growth": -17.8, "net_profit_margin": -11.0, "debt_to_equity": 4.50},
-        {"quarter": "Q4", "revenue_growth": -18.5, "net_profit_margin": -12.4, "debt_to_equity": 4.80}
+        {"quarter": "Q1", "revenue_growth": -15.0, "net_profit_margin": -8.5, "debt_to_equity": 4.10},
+        {"quarter": "Q2", "revenue_growth": -18.2, "net_profit_margin": -11.1, "debt_to_equity": 4.60},
+        {"quarter": "Q3", "revenue_growth": -20.8, "net_profit_margin": -13.0, "debt_to_equity": 4.90},
+        {"quarter": "Q4", "revenue_growth": -22.5, "net_profit_margin": -14.8, "debt_to_equity": 5.20}
       ]
     }
   ]
