@@ -228,3 +228,8 @@ Task: Write a concise 3-sentence executive verdict:
         "company_id": company_id,
         "formatted_llm_prompt": prompt_context.strip()
     }
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="127.0.0.1", port=8000)
+
