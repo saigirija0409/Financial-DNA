@@ -1,0 +1,180 @@
+{
+  "companies": [
+    {
+      "id": "tcs",
+      "name": "Tata Consultancy Services",
+      "ticker": "TCS",
+      "sector": "Information Technology",
+      "description": "Global IT services leader with elite cash generation, minimal debt, and robust operational margins.",
+      "metrics": {
+        "revenue_growth": 14.2,
+        "net_profit_margin": 24.1,
+        "cash_conversion": 1.15,
+        "debt_to_equity": 0.08,
+        "current_ratio": 2.45,
+        "working_capital_ratio": 0.28,
+        "revenue_std_dev_ratio": 0.04
+      },
+      "historical_quarters": [
+        {"quarter": "Q1", "revenue_growth": 15.1, "net_profit_margin": 24.5, "debt_to_equity": 0.07},
+        {"quarter": "Q2", "revenue_growth": 14.8, "net_profit_margin": 24.2, "debt_to_equity": 0.08},
+        {"quarter": "Q3", "revenue_growth": 13.9, "net_profit_margin": 23.8, "debt_to_equity": 0.08},
+        {"quarter": "Q4", "revenue_growth": 14.2, "net_profit_margin": 24.1, "debt_to_equity": 0.08}
+      ]
+    },
+    {
+      "id": "apple",
+      "name": "Apple Inc.",
+      "ticker": "AAPL",
+      "sector": "Consumer Electronics / Tech",
+      "description": "Blue-chip consumer tech titan with high profit margins and massive ecosystem lock-in.",
+      "metrics": {
+        "revenue_growth": 8.5,
+        "net_profit_margin": 25.3,
+        "cash_conversion": 1.08,
+        "debt_to_equity": 1.45,
+        "current_ratio": 1.05,
+        "working_capital_ratio": 0.12,
+        "revenue_std_dev_ratio": 0.09
+      },
+      "historical_quarters": [
+        {"quarter": "Q1", "revenue_growth": 9.2, "net_profit_margin": 26.0, "debt_to_equity": 1.40},
+        {"quarter": "Q2", "revenue_growth": 8.8, "net_profit_margin": 25.5, "debt_to_equity": 1.42},
+        {"quarter": "Q3", "revenue_growth": 8.0, "net_profit_margin": 24.8, "debt_to_equity": 1.46},
+        {"quarter": "Q4", "revenue_growth": 8.5, "net_profit_margin": 25.3, "debt_to_equity": 1.45}
+      ]
+    },
+    {
+      "id": "tesla",
+      "name": "Tesla Motors",
+      "ticker": "TSLA",
+      "sector": "Automotive & Clean Energy",
+      "description": "High-growth EV manufacturer with rapid expansion but cyclic price sensitivity.",
+      "metrics": {
+        "revenue_growth": 18.7,
+        "net_profit_margin": 11.4,
+        "cash_conversion": 0.92,
+        "debt_to_equity": 0.22,
+        "current_ratio": 1.73,
+        "working_capital_ratio": 0.18,
+        "revenue_std_dev_ratio": 0.15
+      },
+      "historical_quarters": [
+        {"quarter": "Q1", "revenue_growth": 24.0, "net_profit_margin": 14.1, "debt_to_equity": 0.25},
+        {"quarter": "Q2", "revenue_growth": 20.2, "net_profit_margin": 12.5, "debt_to_equity": 0.24},
+        {"quarter": "Q3", "revenue_growth": 16.5, "net_profit_margin": 10.8, "debt_to_equity": 0.23},
+        {"quarter": "Q4", "revenue_growth": 18.7, "net_profit_margin": 11.4, "debt_to_equity": 0.22}
+      ]
+    },
+    {
+      "id": "delta",
+      "name": "Delta Air Lines",
+      "ticker": "DAL",
+      "sector": "Airlines & Transportation",
+      "description": "Capital-intensive airline operator with seasonal revenue fluctuations and high financial leverage.",
+      "metrics": {
+        "revenue_growth": 5.2,
+        "net_profit_margin": 4.8,
+        "cash_conversion": 0.78,
+        "debt_to_equity": 2.85,
+        "current_ratio": 0.68,
+        "working_capital_ratio": -0.08,
+        "revenue_std_dev_ratio": 0.22
+      },
+      "historical_quarters": [
+        {"quarter": "Q1", "revenue_growth": 3.1, "net_profit_margin": 3.2, "debt_to_equity": 3.10},
+        {"quarter": "Q2", "revenue_growth": 7.5, "net_profit_margin": 6.1, "debt_to_equity": 2.95},
+        {"quarter": "Q3", "revenue_growth": 6.2, "net_profit_margin": 5.4, "debt_to_equity": 2.90},
+        {"quarter": "Q4", "revenue_growth": 5.2, "net_profit_margin": 4.8, "debt_to_equity": 2.85}
+      ]
+    },
+    {
+      "id": "target",
+      "name": "Target Corporation",
+      "ticker": "TGT",
+      "sector": "Retail & Wholesale",
+      "description": "Large-scale general merchandise retailer operating with steady low-margin volume.",
+      "metrics": {
+        "revenue_growth": 2.4,
+        "net_profit_margin": 3.6,
+        "cash_conversion": 0.85,
+        "debt_to_equity": 1.25,
+        "current_ratio": 0.88,
+        "working_capital_ratio": 0.05,
+        "revenue_std_dev_ratio": 0.11
+      },
+      "historical_quarters": [
+        {"quarter": "Q1", "revenue_growth": 1.8, "net_profit_margin": 3.2, "debt_to_equity": 1.28},
+        {"quarter": "Q2", "revenue_growth": 2.1, "net_profit_margin": 3.4, "debt_to_equity": 1.26},
+        {"quarter": "Q3", "revenue_growth": 3.0, "net_profit_margin": 4.0, "debt_to_equity": 1.24},
+        {"quarter": "Q4", "revenue_growth": 2.4, "net_profit_margin": 3.6, "debt_to_equity": 1.25}
+      ]
+    },
+    {
+      "id": "exxon",
+      "name": "ExxonMobil Corporation",
+      "ticker": "XOM",
+      "sector": "Energy & Oil",
+      "description": "Integrated oil & energy enterprise with massive cyclical cash flows and moderate leverage.",
+      "metrics": {
+        "revenue_growth": 11.8,
+        "net_profit_margin": 14.2,
+        "cash_conversion": 1.12,
+        "debt_to_equity": 0.28,
+        "current_ratio": 1.45,
+        "working_capital_ratio": 0.14,
+        "revenue_std_dev_ratio": 0.18
+      },
+      "historical_quarters": [
+        {"quarter": "Q1", "revenue_growth": 13.5, "net_profit_margin": 15.0, "debt_to_equity": 0.30},
+        {"quarter": "Q2", "revenue_growth": 12.1, "net_profit_margin": 14.5, "debt_to_equity": 0.29},
+        {"quarter": "Q3", "revenue_growth": 10.2, "net_profit_margin": 13.8, "debt_to_equity": 0.28},
+        {"quarter": "Q4", "revenue_growth": 11.8, "net_profit_margin": 14.2, "debt_to_equity": 0.28}
+      ]
+    },
+    {
+      "id": "pfizer",
+      "name": "Pfizer Inc.",
+      "ticker": "PFE",
+      "sector": "Healthcare & BioPharma",
+      "description": "Global pharmaceutical giant with stable research cash flows and conservative balance sheet.",
+      "metrics": {
+        "revenue_growth": 6.8,
+        "net_profit_margin": 18.5,
+        "cash_conversion": 1.02,
+        "debt_to_equity": 0.65,
+        "current_ratio": 1.38,
+        "working_capital_ratio": 0.16,
+        "revenue_std_dev_ratio": 0.08
+      },
+      "historical_quarters": [
+        {"quarter": "Q1", "revenue_growth": 7.2, "net_profit_margin": 19.1, "debt_to_equity": 0.62},
+        {"quarter": "Q2", "revenue_growth": 6.9, "net_profit_margin": 18.8, "debt_to_equity": 0.64},
+        {"quarter": "Q3", "revenue_growth": 6.4, "net_profit_margin": 18.2, "debt_to_equity": 0.65},
+        {"quarter": "Q4", "revenue_growth": 6.8, "net_profit_margin": 18.5, "debt_to_equity": 0.65}
+      ]
+    },
+    {
+      "id": "bbby",
+      "name": "Distressed Retail Corp (Benchmark)",
+      "ticker": "DRCB",
+      "sector": "Retail Distressed Benchmark",
+      "description": "Distressed retail operator severely leveraged with negative cash generation and shrinking sales.",
+      "metrics": {
+        "revenue_growth": -18.5,
+        "net_profit_margin": -12.4,
+        "cash_conversion": 0.25,
+        "debt_to_equity": 4.80,
+        "current_ratio": 0.42,
+        "working_capital_ratio": -0.22,
+        "revenue_std_dev_ratio": 0.35
+      },
+      "historical_quarters": [
+        {"quarter": "Q1", "revenue_growth": -12.0, "net_profit_margin": -6.5, "debt_to_equity": 3.80},
+        {"quarter": "Q2", "revenue_growth": -15.2, "net_profit_margin": -9.1, "debt_to_equity": 4.20},
+        {"quarter": "Q3", "revenue_growth": -17.8, "net_profit_margin": -11.0, "debt_to_equity": 4.50},
+        {"quarter": "Q4", "revenue_growth": -18.5, "net_profit_margin": -12.4, "debt_to_equity": 4.80}
+      ]
+    }
+  ]
+}
