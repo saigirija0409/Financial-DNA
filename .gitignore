@@ -38,5 +38,7 @@ build/
 .vscode/
 .idea/
 .DS_Store
-Thumbs.db
-*.log
+# Nested repos & build artifacts
+Financial-DNA/
+*.mjs
+
